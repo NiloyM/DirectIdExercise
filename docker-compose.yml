@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  directidexercise:
+    image: ${DOCKER_REGISTRY-}directidexercise
+    build:
+      context: .
+      dockerfile: DirectIdExercise/Dockerfile
+    ports:
+        - 8555:443

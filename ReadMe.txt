@@ -1,0 +1,12 @@
+Implementation details:
+- The code is in C# and .NET 6
+- A controller for the statement is created.
+- MediatR is implemented to communicate between controller and service
+- A Global Exception middleware is included as part of the code
+- Dependency injection is used 
+- Comments are written for all public object
+- Option pattern is implemented for Configuration
+- Solution is running on docker container
+- Only default HttpLogging is added to to explain my intent. Concrete logging mechanism requires more information about actual deployment details
+- Two tests cases are written when the file is present and not to show my intent
+- UI is not implemented as it is optional and I understand it requires React Native, on which I didn't work yet

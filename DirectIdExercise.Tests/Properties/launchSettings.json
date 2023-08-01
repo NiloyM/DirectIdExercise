@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DirectIdExercise.Tests": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
